@@ -17,15 +17,7 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
-*ɪᴋᴜᴢᴇ🧚🏻*
-
-> *title: ${data.title}*
-> *description: ${data.description}*
-> *time: ${data.timestamp}*
-> *ago: ${data.ago}*
-> *views: ${data.views}*
-
-ᴍᴀᴅᴇ ʙʏ ʏᴜɪᴛᴏ 🌻
+_*IKUZE>🪻*_
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
@@ -62,15 +54,7 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
-*ɪᴋᴜᴢᴇ🧚🏻*
-
-> *title: ${data.title}*
-> *description: ${data.description}*
-> *time: ${data.timestamp}*
-> *ago: ${data.ago}*
-> *views: ${data.views}*
-
-*ᴍᴀᴅᴇ ʙʏ ʏᴜɪᴛᴏ 🌻*
+_*IKUZE>🪻*_
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
