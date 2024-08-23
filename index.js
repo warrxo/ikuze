@@ -71,7 +71,7 @@ console.log('*ɪᴋᴜᴢᴇ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴛᴏ ᴡʜᴀᴛsᴀᴘ
 
 let up = `ɪᴋᴜᴢᴇ ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟ ✅\n\n*ᴘʀᴇғɪx : [${prefix}]*`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://ibb.co/K60RGJH` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/35ecf4716a3dc545cdbe6.jpg` }, caption: up })
 
 }
 })
