@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID,
-ALIVE_IMG: process.env.ALIVE_IMG || "https://ibb.co/744LQ5p",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://telegra.ph/file/35ecf4716a3dc545cdbe6.jpg",
 ALIVE_MSG: process.env.ALIVE_MSG || "> *나는 지금 살아있다「🌻」*",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 };
