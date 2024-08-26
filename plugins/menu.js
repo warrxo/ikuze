@@ -55,3 +55,5 @@ await conn.sendMessage(from,{text:made menu},{quoted:mek})
 }catch(e){
 console.log(e);
 reply(`${e}`)
+}
+})
